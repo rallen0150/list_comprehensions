@@ -75,4 +75,4 @@ roster = {'Gale': {'Homework 1': 88, 'Homework 2': 76},
           'River': {'Homework 1': 85, 'Homework 2': 91}}
 
 average = {(roster[grade]['Homework 1'] / 4) for grade in roster}
-print(average)
+print(sum(average))
