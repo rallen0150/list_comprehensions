@@ -62,3 +62,13 @@ print(fahrenheit)
 print("Date: Wave Height")
 new_dict = {row[5]: row[1] for row in water_temp}
 print(new_dict)
+
+
+############################################
+# HARD MODE
+print("\nHARD MODE\n")
+
+roster = {'Gale': {'Homework 1': 88, 'Homework 2': 76},
+          'Jordan': {'Homework 1': 92, 'Homework 2': 87},
+          'Peyton': {'Homework 1': 84, 'Homework 2': 77},
+          'River': {'Homework 1': 85, 'Homework 2': 91}}
